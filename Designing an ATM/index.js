@@ -78,7 +78,7 @@ class ATM {
 }
 
 const atm = new ATM(
-  1610,
+  2970,
   20000,
   [],
   "Sarah Gomes",
@@ -87,9 +87,9 @@ const atm = new ATM(
   100000
 );
 atm.deposit(3000);
-atm.withdraw(2000, 1610);
-atm.withdraw(2000, 1610);
+atm.withdraw(2000, 2970);
+atm.withdraw(2000, 2970);
 const transactions = atm.viewTransactionHistory(1610);
 console.log(transactions);
-atm.checkBalance(1610);
+atm.checkBalance(2970);
 console.log(atm.getAtmDetails());
